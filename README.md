@@ -29,6 +29,16 @@ params = [{'params': get_non_offset_params(net), 'lr': lr},
           {'params': get_offset_params(net), 'lr': lr / 10}]
 opt = optim.Adam(params)
 ```
+# This is a merge of Daniel Russell's deep-image-prior notebook with Katherine Crowson's notebook
+
+Some minor additions: P. Fishwick 01/28/2022
+
+    Merged Katherine Crowson's deep_image_prior into Daniel Russell's original notebook : https://github.com/crowsonkb/deep-image-prior
+    Mount Google Drive to save the directory deep_image_prior
+    Updated to CLIP model RN50x64 with size 448
+    Lowered cutn to 10 for a V100 (16GB memory) - update for an A100
+    Iterates over num_images to create an image batch
+    Saves the image at each display interval
 
 # Original README
 
