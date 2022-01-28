@@ -1,3 +1,5 @@
+![Cover](/images/cover.png)
+
 ## Edits made to this repo by Katherine Crowson
 
 I have added several features to this repository for use in creating higher quality generative art (feature visualization probably also benefits):
